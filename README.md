@@ -1,6 +1,6 @@
 # NetworkManager VPN status icons
 
-These are custom VPN connection status icons for NetworkManager running in a ProxyVM - in Qubes OS.
+These are custom VPN connection status icons for NetworkManager running in a ProxyVM - in [Qubes OS](qubes-os.org)
 
 This assumes that you are using Qubes OS, you have a separate ProxyVM for VPN connections and [your VPN are handled by NetworkManager](https://www.qubes-os.org/doc/privacy/vpn/)
 
@@ -17,3 +17,10 @@ In Your ProxyVM:
 - Unzip the icon pack into that newly created directory.
 
 - Reboot Your customized ProxyVM and enjoy the results :)
+
+
+
+
+Yes, this means we just overrideing the default Adwaita icons. Much more elegant solution would be:
+- create a real new icon theme
+- set this theme as default for your ProxyVM

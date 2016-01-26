@@ -11,10 +11,17 @@ In this case if you want some nice green/red padlock icon instead of the Network
 
 In Your ProxyVM:
 
-- Create a directory: 
-  `mkdir -p /home/user/.icons/Adwaita`
+- Create a directory:
 
-- Unzip the icon pack into that newly created directory.
+`mkdir -p /home/user/.icons/Adwaita`
+
+- Unzip the icon pack:
+
+`unzip -d /tmp ~/QubesIncoming/<source vm>/qubes-artwork-proxy-vpn-master.zip`
+
+- copy the relevant files into that newly created directory:
+
+`cp -a /tmp/qubes-artwork-proxy-vpn-master/* /home/user/.icons/Adwaita/`
 
 - Reboot Your customized ProxyVM and enjoy the results :)
 
